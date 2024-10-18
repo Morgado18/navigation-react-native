@@ -5,9 +5,9 @@ import React from "react";
 
 export default function Contacts ({navigation}){
   return (
-    <View>
+    <View style={{ marginTop:60 }}>
         <Text>Morgado</Text>
-            <Text onPress={()=>navigation.navigate("Information")}>Contacts...</Text>
-        </View>
+        <Text onPress={()=>navigation.navigate("Information")}>Contacts...</Text>
+    </View>
   )
 }
